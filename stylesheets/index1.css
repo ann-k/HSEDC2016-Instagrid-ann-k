@@ -1,0 +1,27 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 986px;
+  height: 986px;
+}
+
+.big {
+  width: 986px;
+  height: 986px;
+}
+
+.small {
+  width: 493px;
+  height: 493px;
+}
+
+.bottom {
+  margin-top: -3px;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  height: 986px;
+  width: 493px;
+}
