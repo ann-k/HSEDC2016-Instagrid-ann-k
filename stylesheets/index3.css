@@ -1,0 +1,26 @@
+body.three {
+  background-color: white;
+}
+
+.big.three {
+  height: calc(100vh - 250px);
+  margin-top: 120px;
+  background-color: #3f3f3f;
+}
+
+.small.three {
+  height: calc(50vh - 128px);
+  background-color: #3f3f3f;
+}
+
+.flex-container2.three {
+  margin-top: 120px;
+}
+
+.flex-container.three {
+  margin-left: 150px;
+}
+
+#prev.three {
+  left: 165px;
+}

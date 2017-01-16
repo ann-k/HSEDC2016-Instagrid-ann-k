@@ -1,13 +1,14 @@
 .menubar,
 .footer {
   position: fixed;
-  background-color: black;
+  background-color: #3f3f3f;
   height: 50px;
   width: 100%;
 }
 
 .footer {
   bottom: 0;
+  text-align: center;
 }
 
 .big.two {
@@ -21,4 +22,28 @@
 
 .flex-container2.two {
   margin-top: 50px;
+}
+
+a {
+  display: inline-block;
+  color: white;
+  font-family: 'PT Sans Caption', sans-serif;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+.menubar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+a.left {
+  margin-left: 5px;
+}
+
+a.right {
+  margin-right: 5px;
 }
