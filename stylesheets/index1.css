@@ -1,20 +1,26 @@
 body {
   background-color: #3f3f3f;
+  overflow-y: hidden;
 }
 
 .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 50%;
 }
 
 .big {
-  height: calc(100vh - 10px);
+  height: calc(100vh - 25px);
   padding: 5px 5px;
 }
 
 .small {
-  height: calc(50vh - 8px);
+  height: calc(50vh - 16px);
   padding: 5px 0;
 }
 
@@ -23,15 +29,18 @@ body {
 }
 
 .flex-container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .galleryNav div {
   position: fixed;
-  width: 20px;
-  height: 20px;
-  margin-top: 49vh;
+  margin-top: 50vh;
   cursor: pointer;
   z-index: 1;
 }
@@ -54,11 +63,13 @@ body {
 }
 
 #prev {
+  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   left: 15px;
 }
 
 #next {
+  -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
   right: 15px;
 }

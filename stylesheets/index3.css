@@ -13,12 +13,12 @@ body.three {
   background-color: #3f3f3f;
 }
 
-.flex-container2.three {
-  margin-top: 120px;
-}
-
 .flex-container.three {
   margin-left: 150px;
+}
+
+.flex-container2.three {
+  margin-top: 120px;
 }
 
 #prev.three {
