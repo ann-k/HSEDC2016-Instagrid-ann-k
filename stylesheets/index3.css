@@ -24,3 +24,11 @@ body.three {
 #prev.three {
   left: 165px;
 }
+
+.extra {
+  position: fixed;
+  z-index: 1;
+  width: 150px;
+  height: 100%;
+  background-color: white;
+}
